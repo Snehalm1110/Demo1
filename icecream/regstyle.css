@@ -1,0 +1,65 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling the form container */
+.reg-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: left;
+}
+
+/* Form heading */
+.reg_h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Button styling */
+.reg_button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reg_button:hover {
+    background-color: pink;
+    color: black;
+    border-color: black;
+}
